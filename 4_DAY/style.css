@@ -1,0 +1,301 @@
+/* colors
+sfumatura heather rgba(0,155,193,255)
+rgba(12,109,135,255)
+
+mario rossi rgba(165,158,166,255)
+
+scritta viola rgba(170,32,114,255)
+
+head e border tabella tabella rgba(54,113,188,255)
+
+novità rgba(222,231,232,255)
+
+articoli correlati rgba(222,231,232,255)
+
+
+footer sfumato rgba(0,85,102,255)
+                rgba(45,55,56,255)
+                
+                
+                font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto Condensed', sans-serif;*/
+
+/* IMPOSTAZIONI GENERALI */
+
+header,
+main,
+footer {
+  box-shadow: 10px 5px 15px black;
+}
+
+body {
+  width: 500px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 30px;
+}
+
+.contenitoreSfondo {
+  width: 500px;
+  background-image: url(assets/img/sfondo.png);
+  object-fit: cover;
+}
+
+.contenitorePrincipale {
+  width: 90%;
+  margin-left: 5%;
+}
+
+p strong {
+  color: rgba(170, 32, 114, 255);
+}
+
+/* HEADER */
+
+header {
+  color: white;
+
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 155, 193, 255),
+    rgba(12, 109, 135, 255)
+  );
+}
+
+header menu a {
+  color: white;
+  text-decoration: none;
+}
+
+header menu {
+  padding-bottom: 20px;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header img {
+  width: 70%;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+header h2 {
+  margin-bottom: 20px;
+}
+
+header li {
+  line-height: 25px;
+}
+
+/* MAIN */
+
+main {
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+article {
+  width: 90%;
+  margin-left: 5%;
+  line-height: 25px;
+}
+
+article h1 {
+  padding: 20px 0 20px 0;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.sottotestoTitolo {
+  color: grey;
+  padding-bottom: 20px;
+}
+
+.liste {
+  margin-top: 15px;
+}
+
+.liste #p2 {
+  margin-top: 15px;
+}
+
+.liste ol {
+  margin-top: 15px;
+}
+
+/* TABELLE */
+table {
+  border-bottom: 2px solid rgba(54, 113, 188, 255);
+}
+
+.contTabella {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.contTabella p {
+  margin-bottom: 20px;
+}
+
+.contTabella h5 {
+  text-align: center;
+  font-style: italic;
+}
+
+th,
+td {
+  padding: 20px 10px;
+  text-align: center;
+  height: 40px;
+  width: 33%;
+}
+
+.prima {
+  background-color: rgba(54, 113, 188, 255);
+}
+
+.grigio {
+  background-color: rgba(207, 207, 207, 0.644);
+}
+
+/* VIDEO */
+
+.video {
+  margin: 20px 0 20px 0;
+}
+
+.video p {
+  margin: 20px 0 20px 0;
+}
+
+.video iframe {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* FORM */
+form {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgba(222, 231, 232, 255);
+  height: 230px;
+}
+
+form h3 {
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+form div {
+  margin: 20px 10px 0 10px;
+}
+
+form div label {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+form input,
+button {
+  margin-top: 30px;
+}
+
+form input {
+  width: 60%;
+}
+
+form button {
+  width: 30%;
+  color: white;
+  background-color: rgba(54, 113, 188, 255);
+}
+/* ELEMENTI NELL' ASIDE */
+aside {
+  width: 90%;
+  margin-left: 5%;
+  padding-bottom: 20px;
+}
+aside a {
+  color: rgb(0, 143, 143);
+}
+
+aside h3 {
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+aside div {
+  background-color: rgba(222, 231, 232, 255);
+  height: 120px;
+  padding: 20px;
+}
+
+aside p {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+aside aside .categoria {
+  font-weight: 400;
+}
+
+aside time {
+  line-height: 100px;
+  margin-left: 250px;
+  font-weight: 200;
+}
+/* FOOTER */
+
+footer {
+  height: 150px;
+  color: white;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 85, 102, 255),
+    rgba(45, 55, 56, 255)
+  );
+}
+
+footer h6 {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: blueviolet;
+}
